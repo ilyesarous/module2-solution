@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+div{
+    border: 1px solid black;
+    background-color: rgb(163, 162, 162) ;
+    width: 30.33%;
+    padding: 10px;
+    margin-top: 5%;
+    float: left;
+    margin-left: 30px;
+   
+}
+
+.chicken > h2{
+    background-color: palevioletred;
+}
+.beef > h2{
+    background-color: rgb(190, 62, 16);
+    color: white;
+}
+.sushi > h2{
+    background-color: rgb(218, 224, 133);
+}
+h2{
+    text-align: center;
+    border: 1px solid black;
+    width: 90px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+p{
+    
+    text-align: justify;
+}
+@media (max-width: 992px) and (min-width: 768px){
+    *{
+        box-sizing: border-box
+        margin 0 ;
+        padding:  0;
+    }
+    h1{
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    div{
+       
+        background-color: rgb(163, 162, 162) ;
+        width: 50%;
+        float: left;
+        margin-left: 0px;
+    }
+    .sushi{
+        width: 100%;
+    }
+    
+    .chicken > h2{
+        background-color: palevioletred;
+    }
+    .beef > h2{
+        background-color: rgb(190, 62, 16);
+        color: white;
+    }
+    .sushi > h2{
+        background-color: rgb(218, 224, 133);
+        left: -1.3%;
+        
+    }
+    h2{
+        text-align: center;
+        border: 1px solid black;
+        width: 90px;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+    p{
+        text-align: justify;
+    }
+}
+@media(max-width: 767px){
+    *{
+        box-sizing: border-box
+        margin 0 ;
+        padding:0;
+    }
+    h1{
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    div{
+        background-color: rgb(163, 162, 162) ;
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .chicken > h2{
+        background-color: palevioletred;
+    }
+    .beef > h2{
+        background-color: rgb(190, 62, 16);
+        color: white;
+    }
+    .sushi > h2{
+        background-color: rgb(218, 224, 133);
+        left: -1.3%;
+        
+    }
+    h2{
+        text-align: center;
+        border: 1px solid black;
+        width: 90px;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+    p{
+        text-align: justify;
+    }
+}
